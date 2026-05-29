@@ -220,17 +220,6 @@ STEP 4  —  TRAIN EACH MODEL & MEASURE IT
 
 *(Numbers vary slightly with parameters, but the pattern is stable.)*
 
----
-
-## How to teach with it
-
-1. Run it top-to-bottom once so students see the full narrative unfold.
-2. Scroll back to **Step 4** and point out how the *same data* gives three different precision/recall tradeoffs.
-3. Open **comparison.png** and connect the bars to the table: single tree is low everywhere, bagging spikes on precision, boosting leads ROC-AUC.
-4. Optional: add `input("press Enter to continue...")` between steps to pause and discuss each one live.
-
----
-
 ## Quick metric reminders
 
 - **Precision** — of what we flagged as fraud, how much really was fraud (fewer false alarms).
